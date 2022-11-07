@@ -1,0 +1,188 @@
+*{/*Selecciono todos los elementos*/
+  margin: 0;/*establece el margen para los cuatro lados.*/
+  padding: 0;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+  font-family: "Roboto Slab", serif;/*fuente de los h2*/
+}
+
+*body{
+  /*Permite establecer el tamaño de letra del texto*/
+  font-size: 20px;
+  /*Permite colorear todo el fondo*/
+  background-color: #f5f6f7
+}
+#pantalla-dividida{
+  /*Sirve alterar sus dimensiones y llenar el espacio disponible*/
+  display: flex;
+}
+h1{
+  font-size: 50pt;/*tamaño de la fuente*/
+}
+h2{
+  color: #3d4449;/*para dar color a los h2*/
+  font-family: "Roboto Slab", serif;/*fuente de los h2*/
+  font-size: 1.38889em;/*tamaño de la fuente*/
+  padding: 25px 35px;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+  display: inline-block;/*permite establecer un ancho y un alto en el elemento.*/
+}
+td i{
+  padding-right: 50px;/*Establece el espacio de relleno requerido por la derecha de un elemento*/
+}
+i{
+  padding-right: 15px;
+}
+.lineah2{
+  border-bottom: solid 3px #f56a6a;/*pone una linea debajo de los h2*/
+}
+.linea{
+  border-bottom: solid 3px #91acb9;
+}
+.header{
+  display: flex;
+  border-bottom: solid 5px darkred ;/*pone una linea debajo del menu de 5px negra y solida*/
+  justify-content:  space-between;/*para que se coloque en el centro horizontalmente*/
+}
+.right{
+  padding-right: 100px;
+}
+.rights{
+  padding-right: 300px;
+}
+.bottom{
+  margin-bottom: 200px;/*establece el margen para los cuatro lados.*/
+}
+.tatu{
+  padding-right: 200px;
+}
+.iconos a{
+  color: black;
+}
+.iconos{
+  color: #e7746f;
+}
+.izquierda{
+  /*Establece la altura de los elementos de bloque*/
+  height: 155vh;
+  /*Especifica la anchura del area de contenido de un elemento*/
+  width: 15%;
+  background-color: #eff1f2;/*color del fondo*/
+}
+#centro{
+  margin-right: 1%;/*margen de la derecha*/
+  margin-left: 1%;/*margen de la izquierda*/
+  margin-top: 3%;/*margen por arriba*/
+}
+.buscar{
+  width: 80%; /*ancho del boton*/
+  height: 19px;/*alto del boton*/
+  border: 2px solid;/*borde*/
+  border-radius: 0.375em;/*pico redonndeado*/
+  color: #f56a6a;/*pone color*/
+  align-items: center;/*para que se coloque en el centro verticalmentne*/
+  justify-content: center;/*para que se coloque en el centro horizontalmente*/
+  margin-top:5%;/*mnargen por arriba*/
+  margin-bottom: 10%;/*margen por abajo*/
+  text-decoration: none;/*Esto lo que hace es que no tenga línea los enlaces*/
+}
+.boton .boton1{
+  display: flex;
+  width: 25%; /*ancho del boton*/
+  height: 40px;/*alto del boton*/
+  border: 2px solid;/*borde*/
+  border-radius: 0.375em;/*pico redonndeado*/
+  color: #f56a6a;/*pone color*/
+  align-items: center;/*para que se coloque en el centro verticalmentne*/
+  justify-content: center;/*para que se coloque en el centro horizontalmente*/
+  margin-top:5%;/*mnargen por arriba*/
+  margin-bottom: 10%;/*margen por abajo*/
+  text-decoration: none;/*Esto lo que hace es que no tenga línea los enlaces*/
+}
+.derecha{
+  /*Permite posicionar una imagen de fondo dentro de su contenedor, en este caso, en el centro*/
+  
+  width: 80%;
+  height: 155vh;
+  padding-left: 8%;
+}
+.menu li:hover ul{
+  display: block;/*coloca menu en linia y bloque*/
+}
+.menu li{
+  padding: 25px 35px;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+  color: black;/*pone el color negro*/
+}
+.menu li>ul{
+  display: none;/*no pone ningun display y eso hará que los li de los ul no aparezcan*/
+}
+.menu li a{
+  text-decoration: none;
+  color: black;/*pone el color negro*/
+}
+.menu ul{
+  font-size: 0.9em;/*tamaño de fuente*/
+  display:block; /*coloca menu en linia y bloque*/
+  list-style: none;/*quita la forma de lista*/
+  text-decoration: none;
+}
+.padding{
+  background-color: #eff1f2;/*color del fondo*/
+}
+.padding ul li{
+  padding: 7px 15px;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+}
+.padding p{
+  padding: 25px 35px;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+}
+.titulo{
+    color: #7f888f;/*le pongo color*/
+    text-decoration: none;
+}
+.arriba{
+  /*Sirve para que cambie la tipografia de la letra*/
+  font-family: arial, helvetica;
+  /*Establece algunas o todas las propiedades del color y/o imagen de fondo de un elemento*/
+  background: #092327;
+  /*Establece el espacio de relleno requerido por todos los lados de un elemento*/
+  width: 100%;  
+  /*Sirve para que cambie el estilo como tu quieras, en este caso digo que no quiero que haya ningún estilo*/
+  list-style: none;
+}
+.arriba li{
+  /*Genera una caja de elemento de bloque que fluye con el contenido circundante como si fuera una sola caja en línea*/
+  display: inline-block;
+}
+.arriba li a{
+  /*Sirve para que el texto no haga ningún cambio gracias a el none*/
+  text-decoration: none;
+  /*Permite colorear el texto introducido*/
+  color: white;
+  padding: 20px;
+  /*El elemento genera un cuadro de elemento de bloque*/
+  display: block;
+}
+/*El hover sirve para modificar lo que queramos modificar pero de la forma cuando ponemos el ratón encima*/
+.arriba li a:hover{
+  background: grey;
+}
+.cuerpo{
+  padding-top: 60px;/*establece el espacio de relleno requerido en la parte superior del elemento. */
+  padding-bottom: 60px;/*padding por abajo*/
+  display: flex;/*para que se pongan al lado del otro */
+  border-bottom: 1px solid;/*pone una linea debajo del menu */
+}
+img{
+  border-radius: 0.375em;/*pico redondeado*/
+}
+.zoom{
+  /*Define qué se debe mostrar cuando el contenido se desborda de los extremos superior e inferior de un elemento en bloque, en este caso con el hidden el contenido no es recortado y puede ser visualizado fuera de los extremos superior e inferior del área de padding, que todo esto lo he echo en las imagenes*/
+  overflow: hidden;
+}
+.zoom img{
+  /*Sirve para darle una animación mas fluida, a la hora de hacer zoom en la imágen, y cuando dejamos de hacerlo*/
+  transition: all 500ms ease;
+}
+.zoom img:hover{
+  /*Sirve para hacer un zoom a la imagen, en este caso gracias al :hover, se hará zoom cuando pases por encima de la imágen con el ratón*/
+  transform: scale(1.1);
+  /*Sirve para que cuando estés encima de algo con el ratón, se transforme la imágen del ratón, en una mano*/
+  cursor: pointer;
+}
