@@ -1,14 +1,19 @@
 *{/*Selecciono todos los elementos*/
   margin: 0;/*establece el margen para los cuatro lados.*/
   padding: 0;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
-  font-family: "Roboto Slab", serif;/*fuente de los h2*/
 }
-
+.color{
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+  color: #676d79;/*Color de la letra por defecto en la pagina*/
+}
+.tipo{
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+}
 *body{
   /*Permite establecer el tamaño de letra del texto*/
   font-size: 20px;
   /*Permite colorear todo el fondo*/
-  background-color: #f5f6f7
+  background-color: #f5f6f7;
 }
 #pantalla-dividida{
   /*Sirve alterar sus dimensiones y llenar el espacio disponible*/
@@ -16,19 +21,35 @@
 }
 h1{
   font-size: 50pt;/*tamaño de la fuente*/
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+  color: #414347;/*Color de la letra por defecto en la pagina*/
+
 }
 h2{
   color: #3d4449;/*para dar color a los h2*/
-  font-family: "Roboto Slab", serif;/*fuente de los h2*/
-  font-size: 1.38889em;/*tamaño de la fuente*/
+  font-size: 2em;/*tamaño de la fuente*/
   padding: 25px 35px;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
   display: inline-block;/*permite establecer un ancho y un alto en el elemento.*/
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+  color: #414347;/*Color de la letra por defecto en la pagina*/
+}
+h3{
+  padding-top: 4%;
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+  color: #676d79;/*Color de la letra por defecto en la pagina*/
+}
+td{
+  padding-right: 50px;/*Establece el espacio de relleno requerido por la derecha de un elemento*/
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+  color: #676d79;/*Color de la letra por defecto en la pagina*/
 }
 td i{
   padding-right: 50px;/*Establece el espacio de relleno requerido por la derecha de un elemento*/
 }
 i{
   padding-right: 15px;
+  font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+  color: #676d79;/*Color de la letra por defecto en la pagina*/
 }
 .lineah2{
   border-bottom: solid 3px #f56a6a;/*pone una linea debajo de los h2*/
@@ -45,7 +66,8 @@ i{
   padding-right: 100px;
 }
 .rights{
-  padding-right: 300px;
+  padding-right: 100px;
+  padding-left: 4%;
 }
 .bottom{
   margin-bottom: 200px;/*establece el margen para los cuatro lados.*/
@@ -137,8 +159,6 @@ i{
     text-decoration: none;
 }
 .arriba{
-  /*Sirve para que cambie la tipografia de la letra*/
-  font-family: arial, helvetica;
   /*Establece algunas o todas las propiedades del color y/o imagen de fondo de un elemento*/
   background: #092327;
   /*Establece el espacio de relleno requerido por todos los lados de un elemento*/
@@ -185,4 +205,50 @@ img{
   transform: scale(1.1);
   /*Sirve para que cuando estés encima de algo con el ratón, se transforme la imágen del ratón, en una mano*/
   cursor: pointer;
+}
+.giro{
+  transform: rotate(45deg);/*Rotar 45 grados el div giro*/
+  border: 1px solid;/*Borde de 1px solido*/
+  text-align: center;/*Alinear texto al centro*/
+  width: 85px;/*Anchura de 90px*/
+}
+.gema{
+  margin-top: 15px;/*Margen superior*/
+  color: #f56a6a;/*Color del icono*/
+  padding-left: 50%;
+  padding-top: 20%;
+  font-size: 50px;/*Tamaño de la fuente*/
+  transform: rotate(-45deg);/*Rotar 45 grados*/
+}
+.cohete{
+  margin-top: 15px;/*Margen superior*/
+  color: #f56a6a;/*Color del icono*/
+  padding-left: 50%;
+  padding-top: 20%;
+  font-size: 50px;/*Tamaño de la fuente*/
+  transform: rotate(-45deg);/*Rotar 45 grados*/
+}
+.paper{
+  margin-top: 15px;
+  color: #f56a6a;
+  padding-left: 50%;
+  padding-top: 20%;
+  transform: rotate(-45deg);
+}
+.signal{
+  margin-top: 15px;
+  color: #f56a6a;
+  padding-left: 50%;
+  padding-top: 20%;
+  transform: rotate(-45deg);
+}
+.mr{
+  padding-left: 4%;
+}
+.mb{
+  margin-bottom: 100%;
+}
+.lacinia{
+  margin-bottom: 4%;
+  border-bottom: solid 3px #f56a6a;/*pone una linea debajo de los h2*/
 }
